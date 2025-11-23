@@ -1,8 +1,9 @@
-#include <iostream>
+#pragma once
 #include <string>
 
 enum PlayerType {
-    user, computer
+    user,
+    computer
 };
 
 struct Player {
